@@ -15,12 +15,15 @@
 }
 
 #chat-container{
-    margin: 2%;
+    padding: 2%;
+    border-width: 1px;
+    border-style: solid;
     background-color: #f4f3e6;
     max-height: 250px;
-    max-width: 450px;
+    max-width: 300px;
 }
 
 #query{
-    margin-left: 5%
+    margin: 5%;
+
 }

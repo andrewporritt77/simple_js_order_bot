@@ -26,5 +26,9 @@ function searchFunc(nameKey, myArray){
 function provideDate(x){
     var dateUpdate = document.getElementById("message_box");
     dateUpdate.innerHTML = "Thank you. Order ref " + query + " will be due " + x;
+    setInterval(function(){
+    var moreHelp =  document.getElementById("message_box");
+    moreHelp.innerHTML = "Do you need anything further?(y/n)";
 }
-
+    , 4000);
+}
