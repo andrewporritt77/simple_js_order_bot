@@ -1,0 +1,26 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+#chat-head{
+    margin: 2% 5% 3% 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+}
+
+#message_box{
+    margin: 0% 2% 2% 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10pt;    
+}
+
+#chat-container{
+    margin: 2%;
+    background-color: #f4f3e6;
+    max-height: 250px;
+    max-width: 450px;
+}
+
+#query{
+    margin-left: 5%
+}
